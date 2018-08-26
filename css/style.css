@@ -115,8 +115,28 @@
   background-size: cover;
 }
 
+@media (max-width: 992px) {
+  .masthead {
+    padding: 15rem 0 5rem 0;
+  }
+}
+
 .masthead #typed {
   height: 50px;
+}
+
+.masthead .devices {
+  right: auto;
+}
+
+@media (min-width: 992px) {
+  .masthead .devices {
+    position: absolute;
+    top: 30%;
+    right: -10%;
+    width: 60%;
+    max-width: 1500px;
+  }
 }
 
 .masthead h1 {
